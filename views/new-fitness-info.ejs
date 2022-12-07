@@ -3,7 +3,7 @@
 <body>
     <link rel = "stylesheet" href = "pfi-styles.css">
     <ul>
-        <form>
+        <form method = "post" action = "/enterWorkout">
             <li>
                 <label class = "title"> Insert Fitness Info <br> </label>
                 <ul>
@@ -13,7 +13,7 @@
                         </label>
                     </li>   
                     <li>
-                        <input type = "text" name = "username" id = "username"> 
+                        <input type = "text" name = "time" id = "time"> 
                     </li>
                     <li>
                         <label class = "sectitle">
@@ -21,7 +21,7 @@
                         </label>
                     </li>
                     <li>
-                        <input type = "text" name = "username" id = "username">
+                        <input type = "text" name = "type" id = "type">
                     </li>
                     <li>
                         <label class = "sectitle">
@@ -29,29 +29,19 @@
                         </label>
                     </li>
                     <li>
-                        <input type = "text" name = "username" id = "username">
+                        <input type = "text" name = "date" id = "date">
+                    </li>
+
+                    <li>
+                        <input type = "submit" value  = "Enter Workout" class = "enter">
+                    </li>
+                    <li>
+                        <input type = "submit" value = " Return to Home Page" class = "enter">
                     </li>
                 </ul>
             </li>
         </form>
-        <p>
-
-        </p>
-        <p>
-            
-        </p>
-        <form method = "post" action = "enterWorkout">
-            <input type = "submit" value  = "Enter Workout" class = "enter">
-        </form>
-
-        <p>
-
-        </p>
-        <form method = "post" action = "/returnHome">
-            <input type = "submit" value = " Return to Home Page" class = "enter">
-        </form>
-
-        
+    
     </ul>
    
     
