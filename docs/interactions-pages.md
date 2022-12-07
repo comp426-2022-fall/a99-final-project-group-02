@@ -20,11 +20,17 @@ This page requires the user to enter in their username and password (if needed) 
 So long partner, this page displays the message that the account has been deleted. A button brings the user back to the login page.
 
 ## home.ejs
-This interaction is the homepage. It is comprised of four buttons that are self explanetory in what pages they bring the user to. The user can click the green button that brings them to the new-fitness info page to enter in a workout, the blue button that displays the data from their past logged workouts, a logout button that logs the user out and brings them to the "logout" page, and a delete account page that brings the user to the "confirm-delete" page if they decide to no longer be FitnessFriends to the end.
+This interaction is the homepage. It is comprised of four buttons that are self explanetory in what pages they bring the user to:
+- New Fitness Info: The user can click the green button that brings them to the new-fitness info page to enter in a workout. 
+- Past Fitness IntoL: A blue button that displays the data from their past logged workouts.
+- Logout: Logout button that logs the user out and brings them to the "logout" page.
+- Delete account: A button that when clicked brings the user to the "confirm-delete" page if they decide to no longer be FitnessFriends to the end.
 
 ## new-fitness-info
-This page is where the user enters their workout information. The information is composed of three parts: The Exercise Time (in minutes), Exercise Type (a descriptive variable), and the Exercise Date (day). The data is entered into the accounts user database when the "Enter Workout" button is pressed.
-
+This page is where the user enters their workout information. The information is composed of three parts: 
+- Exercise Time (in minutes)
+- Exercise Type (a descriptive variable)
+- Exercise Date (day). The data is entered into the accounts user database when the "Enter Workout" button is pressed.
 
 
 ## past-fitness-info
